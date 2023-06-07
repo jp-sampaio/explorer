@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+
+  <style>
+    body {
+      background-color: #acacac;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+    form {
+      width: 300px;
+      /* border: 1px solid red; */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    input {
+      width: 100%;
+      border: none;
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <!-- A tag para formulário e seus atributos principais -->
+  <form action="#" method="get">
+    <label for="name">Nome:</label>
+    <input type="text" name="name" id="name">
+
+    <label for="lastname">Sobrenome:</label>
+    <input type="text" name="lastname" id="lastname">
+
+    <label for="age">Idade:</label>
+    <input type="number" name="age" id="age">
+
+    <button type="submit">Enviar</button>
+  </form>
+  <!-- Action é pra onde vai ser enviado as informações e method é a forma como ele vai ser enviado (Get ou Post)-->
+</body>
+</html>
